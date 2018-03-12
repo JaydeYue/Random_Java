@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-/*So c indeed only complies to \0 regardless of whether there are other string characters after it*/
+/*Test: how does \0 work in strings in C
+
+    Result: So c indeed only complies to \0 regardless of whether there are other string characters after it*/
 int main() {
     // Single quotes are for single characters
     char string[] = "012xy\08s34f4w2";
