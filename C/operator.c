@@ -1,5 +1,7 @@
 #include <stdio.h>
-/*Test: does c executes the second operator when the first operator is enough*/
+/*Test: does c executes the second operator when the first operator is enough
+
+    Result: after c knows enough from the first part of comparison, it doesn't compare the second part.*/
 int main() {
     int a=1, b=2, c=3, d=4;
     if ((a=2) || (b=1)) c=2;
