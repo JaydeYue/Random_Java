@@ -14,6 +14,7 @@ $ gem install bundler
 $ gem install rails
 $ bundle install
 $ rails db:create
+$ rails db:seed
 $ rails s
 ```
 
@@ -23,7 +24,7 @@ If the second line doesn't show a SQLite3 version of 3.x (I used 3.26.0 to be pr
 
 The 3-5 lines are for you to install bundler, rails, and stuff in gemfile once you have ruby.
 
-The second last line is for you to create your own testing database.
+The 6th line is for you to create your own testing database. And the 7th line is for you to use the dummy data I put in seeds.rb inside db folder.
 
 The last line should start the rails server for you. Go to whichever port that it ends up running on, but most likely localhost:3000
 
