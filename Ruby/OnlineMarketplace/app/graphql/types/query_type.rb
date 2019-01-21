@@ -3,7 +3,6 @@ Types::QueryType = GraphQL::ObjectType.define do
   # Add root-level fields here.
   # They will be entry points for queries on your schema.
 
-  # TODO: remove me
   field :allProducts do
     type types[Types::ProductType]
     description "A list of all the products"

@@ -1,5 +1,7 @@
 # Online Marketplace Service
 
+This is currently not working properly at the moment, I will fix it once I find some time.
+
 ## Description
 A simple server using Ruby on Rails and GraphQL that supports simple APIs
 
