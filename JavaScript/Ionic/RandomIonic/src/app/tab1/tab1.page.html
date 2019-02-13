@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Random Functionalities
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-card-header>
+        <ion-card-title>Find Median Primes Less Than N</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Given an upper limit of n, find the median prime number(s) of the set of prime numbers less than n.</p>
+        <p>a) If n = 10, the set of prime numbers less than 10 is [2,3,5,7], and so the medians are [3,5]</p>
+        <p>b) If n = 18, the set of prime numbers less than 18 is [2,3,5,7,11,13,17], and so the median is [7]</p>
+        <p>Note: I am assuming n is positive</p>
+
+        <ion-item>
+          <ion-label>N:</ion-label>
+            <ion-input type="text" [(ngModel)]='n_value'
+               (change)='getMedianPrimes()' class="input">
+            </ion-input>
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-label>Output: </ion-label>
+          <p id="MedianPrimesOutput"></p>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+</ion-content>
